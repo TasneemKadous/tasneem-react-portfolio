@@ -1,0 +1,79 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0); /* Fully transparent */
+  padding: 10px 20px; /* Use padding instead of margin */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+  box-sizing: border-box; /* Ensures padding doesn't expand the header */
+}
+/* Hide header when scrolling down */
+.hidden-header {
+  transform: translateY(-100%);
+}
+.logo-icon {
+  width: 50px; /* Adjust size */
+  height: 50px;
+  justify-content: center;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.nav-links {
+  /* list-style: none; */
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-links a:hover {
+  color: #0c1c36b5; 
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.icons a {
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+  transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.icons a:hover {
+  color: #0c1c36b5;
+  transform: scale(1.2);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+
+  .icons {
+    gap: 10px;
+  }
+}

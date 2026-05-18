@@ -1,0 +1,124 @@
+.edu-section {
+  padding: 70px 10%;
+  background: #F4F5EE;
+}
+
+.edu-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #0C1C36;
+  margin-bottom: 40px;
+}
+
+/* Badge grid */
+.badge-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+/* Shared card style */
+.badge-card {
+  background: #ffffff87;
+  padding: 22px;
+  border-radius: 16px;
+  border-left: 6px solid #0C1C36;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  backdrop-filter: blur(8px);
+
+}
+
+/* Clickable cards */
+.clickable-card {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  display: block;
+}
+
+.clickable-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 28px rgba(12, 28, 54, 0.15);
+  background: rgba(255, 255, 255, 0.95);
+}
+
+/* Confidential education card */
+.confidential-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.confidential-card::after {
+  content: "Protected";
+  position: absolute;
+  top: 14px;
+  right: -35px;
+  background: #a90000;
+  color: white;
+  font-size: 11px;
+  padding: 4px 40px;
+  transform: rotate(35deg);
+  letter-spacing: 1px;
+}
+
+/* Category label */
+.badge-category {
+  display: inline-block;
+  background: #0C1C36;
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 6px 14px;
+  border-radius: 20px;
+  margin-bottom: 14px;
+  letter-spacing: 0.3px;
+}
+
+/* Certificate / education title */
+.badge-title {
+  color: #0C1C36;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* View certificate text */
+.view-cert {
+  margin-top: 16px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #0C1C36;
+  opacity: 0.85;
+  transition: 0.3s ease;
+}
+
+.clickable-card:hover .view-cert {
+  opacity: 1;
+  transform: translateX(4px);
+}
+
+/* Confidential text */
+.confidential-text {
+  margin-top: 14px;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #44546A;
+  opacity: 0.9;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .edu-section {
+    padding: 50px 6%;
+  }
+
+  .edu-title {
+    font-size: 26px;
+  }
+
+  .badge-title {
+    font-size: 15px;
+  }
+}
