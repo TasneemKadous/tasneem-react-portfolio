@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 import "./Projects.css";
 
 import cardlink1 from "../../assests/cardlink/1.png";
@@ -11,85 +12,58 @@ import akc1 from "../../assests/akc/1.mp4";
 import akc2 from "../../assests/akc/2.mp4";
 
 const Projects = () => {
+  const { t } = useTranslation();
+
   const [selectedProject, setSelectedProject] = useState(null);
   const [zoomImage, setZoomImage] = useState(null);
 
   const projects = [
     {
-      title: "📄 My Resume",
-      description:
-        "This is my personal portfolio website built to present my professional experience, projects, and technical skills as a Fullstack Software Engineer. It demonstrates my ability to design and develop modern, responsive web applications using React and deploy them on cloud infrastructure. Check the Source Code on Github.",
+      key: "resume",
       tech: ["React", "AWS", "JavaScript", "HTML", "CSS"],
-
-      github: "https://github.com/TasneemKadous/akc-product-service", 
-
-      details: [
-        "Designed and developed a fully responsive personal portfolio using React.js with a modular component-based architecture.",
-        "Implemented dynamic sections including Professional Experience, Featured Projects, Skills, and Education to present career journey in a structured way.",
-        "Deployed the application on AWS cloud infrastructure ensuring scalability, availability, and production-ready hosting.",
-        "Integrated GitHub repository for open-source access and version control to showcase clean code practices and development workflow.",
-        "Focused on UI/UX design principles to create a clean, professional, and recruiter-friendly interface with smooth navigation and responsive layout across devices."
-      ],
+      github: "https://github.com/TasneemKadous/tasneem-react-portfolio",
     },
 
     {
-      title: "🛒 E-Commerce Platform",
-      description:
-        "E-commerce platform with product management, sizes/quantities, customer flow, and secure API architecture. It includes admin dashboard, inventory tracking, order processing, and scalable backend services designed for performance and reliability ensuring seamless user experience.",
+      key: "ecommerce",
       tech: ["Java Spring Boot", "React.js", "AWS", "PostgreSQL"],
-
-      github: "https://github.com/TasneemKadous/akc-product-service", 
+      github: "https://github.com/TasneemKadous/akc-product-service",
 
       media: {
         videos: [akc1, akc2],
       },
-
-      details: [
-        "Led the end-to-end development of a production-ready e-commerce platform using Java 17, Spring Boot, React.js, and PostgreSQL, serving customers and administrators.",
-        "Implemented 20+ core modules including JWT-based authentication, guest checkout, shipment tracking, dynamic inventory management, role-based admin dashboards, and full order lifecycle handling.",
-        "Designed scalable RESTful APIs following clean architecture principles with validation, structured logging, and global exception handling.",
-        "Deployed on AWS using EC2, RDS (PostgreSQL), AWS Amplify, and Route 53 with secure networking, HTTPS configuration, and optimized cloud cost management.",
-        "Delivered the complete system within 10 weeks using a milestone-driven development plan."
-      ],
     },
 
     {
-      title:
-        "📇 Card-Link Solution",
-      description:
-        "A full system for generating digital business cards and scanning client cards using OCR and AI. It enables efficient contact management and CRM integration. It also includes real-time scanning, data validation, and export to contact systems with a user-friendly interface features app.",
+      key: "cardlink",
       tech: ["Java Spring Boot", "React.js", "AWS", "PostgreSQL"],
-
-      github: "", 
+      github: "",
 
       media: {
         images: [cardlink1, cardlink2, cardlink3, cardlink4, cardlink5],
       },
-
-      details: [
-        "Designed and developed a microservices-based web application to automate customer data capture via QR-code digital business cards.",
-        "Reduced manual data entry time by 70% and eliminated input errors through automated QR scanning and structured validation.",
-        "Built secure backend services with Spring Boot and frontend with React.js, implementing role-based access control and REST APIs.",
-        "Developed a centralized admin dashboard for monitoring sales users and managing customer records.",
-        "Deployed on AWS with SSL certification and HTTPS, ensuring scalability, security, and production readiness with full unit test coverage."
-      ],
     },
   ];
 
   return (
     <section className="projects-section">
-      <h2 className="projects-title">Featured Projects</h2>
+      <h2 className="projects-title">
+        {t("projects.sectionTitle")}
+      </h2>
 
       <div className="projects-grid">
         {projects.map((p, i) => (
           <div key={i} className="project-card">
-            <h3>{p.title}</h3>
-            <p className="project-desc">{p.description}</p>
+            <h3>{t(`projects.${p.key}.title`)}</h3>
+
+            <p className="project-desc">
+              {t(`projects.${p.key}.description`)}
+            </p>
 
             <div className="tech-list">
-              {p.tech.map((t, index) => (
+              {p.tech.map((tech, index) => (
                 <span key={index} className="tech-tag">
-                  {t}
+                  {tech}
                 </span>
               ))}
             </div>
@@ -98,7 +72,7 @@ const Projects = () => {
               className="project-link"
               onClick={() => setSelectedProject(p)}
             >
-              View Project →
+              {t("projects.viewProject")} →
             </button>
           </div>
         ))}
@@ -114,10 +88,12 @@ const Projects = () => {
             className="modal-content"
             onClick={(e) => e.stopPropagation()}
           >
-            <h2>{selectedProject.title}</h2>
+            <h2>
+              {t(`projects.${selectedProject.key}.title`)}
+            </h2>
 
             <p className="modal-desc">
-              {selectedProject.description}
+              {t(`projects.${selectedProject.key}.description`)}
             </p>
 
             {/* GITHUB BUTTON */}
@@ -128,7 +104,7 @@ const Projects = () => {
                 rel="noopener noreferrer"
                 className="github-btn"
               >
-                View on GitHub
+                {t("projects.viewGithub")}
               </a>
             )}
 
@@ -136,7 +112,7 @@ const Projects = () => {
             {(selectedProject.media?.images?.length > 0 ||
               selectedProject.media?.videos?.length > 0) && (
               <div className="media-section">
-                <h3>Project Media</h3>
+                <h3>{t("projects.media")}</h3>
 
                 {selectedProject.media?.images?.length > 0 && (
                   <div className="media-grid">
@@ -166,10 +142,14 @@ const Projects = () => {
 
             {/* DETAILS */}
             <div className="details-section">
-              <h3>Project Details</h3>
+              <h3>{t("projects.details")}</h3>
+
               <ul>
-                {selectedProject.details.map((d, i) => (
-                  <li key={i}>{d}</li>
+                {t(
+                  `projects.${selectedProject.key}.details`,
+                  { returnObjects: true }
+                ).map((detail, i) => (
+                  <li key={i}>{detail}</li>
                 ))}
               </ul>
             </div>
@@ -178,7 +158,7 @@ const Projects = () => {
               className="close-btn"
               onClick={() => setSelectedProject(null)}
             >
-              Close
+              {t("projects.close")}
             </button>
           </div>
         </div>
@@ -190,7 +170,11 @@ const Projects = () => {
           className="zoom-overlay"
           onClick={() => setZoomImage(null)}
         >
-          <img src={zoomImage} alt="zoom" className="zoom-image" />
+          <img
+            src={zoomImage}
+            alt="zoom"
+            className="zoom-image"
+          />
         </div>
       )}
     </section>

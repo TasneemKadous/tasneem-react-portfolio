@@ -77,3 +77,26 @@
     gap: 10px;
   }
 }
+
+.lang-btn {
+  background: transparent;
+  border: 1px solid #000;
+  border-radius: 6px;
+  padding: 4px 10px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.lang-btn:hover {
+  background: #0c1c36b5;
+  color: white;
+  border-color: #0c1c36b5;
+}
+
+.lang-btn.active {
+  background: #0c1c36;
+  color: white;
+  border-color: #0c1c36;
+}

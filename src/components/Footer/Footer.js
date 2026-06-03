@@ -12,7 +12,7 @@ const Footer = () => {
         <Link to="/faqs">FAQs</Link>
       </div>
       <p>
-        ©2025 All rights reserved | Powered by{""}
+        ©2026 All rights reserved | Powered by{""}
         <a href="https://www.linkedin.com/in/tasneem-kadous/" target="_blank" rel="noopener noreferrer" className="footer-link">
           Tasneem Kadous
         </a>

@@ -6,31 +6,44 @@ import Skills from '../../components/Skills/Skills';
 import EducationCerts from '../../components/EducationCerts/EducationCerts';
 import CTA from '../../components/CTA/CTA';
 
-const Home = () => {
+import { useTranslation } from "react-i18next";
 
+const Home = () => {
+  const { t } = useTranslation();
 
   return (
     <div className="home">
-     
-{/* HERO SECTION */}
+
+      {/* HERO SECTION */}
       <section className="hero-section">
         <div className="hero-content">
-          <h1 className="hero-title">Hi, I'm <span>Tasneem Kadous</span></h1>
-          <h2 className="hero-subtitle">Fullstack Software Engineer | AWS Certified Solutions Architect – Associate | Java Spring Boot | Advanced React | C1 German</h2>
+
+          <h1 className="hero-title">
+            {t("home.hero.title")} <span>{t("home.hero.name")}</span>
+          </h1>
+
+          <h2 className="hero-subtitle">
+            {t("home.hero.subtitle")}
+          </h2>
+
           <p className="hero-text">
-            
+            {t("home.hero.text")}
           </p>
 
           <div className="hero-buttons">
-            <a href="/contact" className="btn primary">Contact Me</a>
+            <a href="/contact" className="btn primary">
+              {t("home.hero.button")}
+            </a>
           </div>
+
         </div>
 
         <div className="hero-image">
           <img src={personalImage} alt="Tasneem Kadous" />
         </div>
       </section>
-       <section id="experience">
+
+      <section id="experience">
         <Experience />
       </section>
 
@@ -45,15 +58,9 @@ const Home = () => {
       <section id="education">
         <EducationCerts />
       </section>
-    
-     <CTA />
 
+      <CTA />
 
-
-     
-
-   
-     
     </div>
   );
 };
