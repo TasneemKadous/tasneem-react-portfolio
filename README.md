@@ -47,32 +47,32 @@ Deployed via AWS Amplify:
 ## 🏗️ Project Architecture
 src/
 │
-├── assets/ # Images, videos, flags, media
+├── assets/                 # Images, videos, flags, media
+│
 ├── components/
-│ ├── CTA/
-│ ├── Header/
-│ ├── Footer/
-│ ├── Experience/
-│ ├── Projects/
-│ ├── Skills/
-│ ├── Education/
-│ └── ScrollToHash/
-│  
-│── configs/
+│   ├── CTA/
+│   ├── Header/
+│   ├── Footer/
+│   ├── Experience/
+│   ├── Projects/
+│   ├── Skills/
+│   ├── Education/
+│   └── ScrollToHash/
 │
+├── pages/
+│   ├── Home/
+│   ├── About/
+│   ├── FAQs/
+│   └── Contact/
 │
-│── PAGES/
-│ ├── Home/
-│ ├── About/
-│ ├── FAQs/
-│ └── Contact/
+├── configs/
 │
-├── i18n.js # Language configuration (react-i18next)
-│
+├── i18n.js                # React-i18next configuration
 │
 ├── locales/
-│ ├── en.json # English translations
-│ └── de.json # German translations
+│   ├── en.json            # English translations
+│   └── de.json            # German translations
 │
 ├── App.js
+└── index.js
 └── index.js
