@@ -119,7 +119,6 @@
     "Arabic (Native)",
     "Turkish (Good)"
   ],
-  
   "about.name": "Tasneem Kadous",
   "about.intro.p1": "Hello, I am Tasneem — a Software Engineer specializing in Java Spring Boot, React, and cloud-based solutions on AWS. I enjoy designing and building systems end-to-end: from gathering requirements and designing the architecture, to implementing clean backend APIs, intuitive frontend interfaces, and deploying secure scalable applications.",
   "about.intro.p2": "I have always been drawn to problem-solving and creating things that improve real workflows. Throughout my experience, I have worked on projects involving CRM development, digital business card systems, online shop platforms, and data automation tools. I focus on writing clean, maintainable code and building solutions that are both technically strong and user-centered.",
@@ -189,5 +188,17 @@
   "home.hero.name": "Tasneem Kadous",
   "home.hero.subtitle": "Fullstack Software Engineer | AWS Certified Solutions Architect – Associate | Java Spring Boot | Advanced React | Fluent German",
   "home.hero.text": "",
-  "home.hero.button": "Contact Me"
+  "home.hero.button": "Contact Me",
+  "header.home": "Home",
+  "header.about": "About",
+  "header.experience": "Experience",
+  "header.projects": "Projects",
+  "header.skills": "Skills",
+  "header.education": "Education",
+  "footer.home": "Home",
+  "footer.about": "About",
+  "footer.contact": "Contact Me",
+  "footer.faqs": "FAQs",
+  "footer.rights": "All rights reserved",
+  "footer.poweredBy": "Powered by"
 }

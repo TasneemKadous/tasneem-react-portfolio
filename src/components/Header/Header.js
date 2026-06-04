@@ -10,7 +10,7 @@ const Header = () => {
   const [isVisible, setIsVisible] = useState(true);
   const [isLangOpen, setIsLangOpen] = useState(false);
 
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   const lastScrollY = useRef(window.scrollY);
 
@@ -30,6 +30,7 @@ const Header = () => {
 
   const changeLanguage = (lang) => {
     i18n.changeLanguage(lang);
+    localStorage.setItem("language", lang);
     setIsLangOpen(false);
   };
 
@@ -37,18 +38,33 @@ const Header = () => {
     <header className={`header ${isVisible ? "" : "hidden-header"}`}>
       <nav className="navbar">
         <ul className="nav-links">
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/about">About</Link></li>
+          <li>
+            <Link to="/">{t("header.home")}</Link>
+          </li>
 
-          <li><Link to="/#experience">Experience</Link></li>
-          <li><Link to="/#projects">Projects</Link></li>
-          <li><Link to="/#skills">Skills</Link></li>
-          <li><Link to="/#education">Education</Link></li>
+          <li>
+            <Link to="/about">{t("header.about")}</Link>
+          </li>
+
+          <li>
+            <Link to="/#experience">{t("header.experience")}</Link>
+          </li>
+
+          <li>
+            <Link to="/#projects">{t("header.projects")}</Link>
+          </li>
+
+          <li>
+            <Link to="/#skills">{t("header.skills")}</Link>
+          </li>
+
+          <li>
+            <Link to="/#education">{t("header.education")}</Link>
+          </li>
         </ul>
 
         <div className="icons">
 
-          {/* Language Dropdown */}
           <div className="lang-dropdown">
             <button
               className="lang-selected"
@@ -65,12 +81,20 @@ const Header = () => {
             {isLangOpen && (
               <div className="lang-menu">
                 <button onClick={() => changeLanguage("en")}>
-                  <img src={enFlag} alt="English" className="flag-icon" />
+                  <img
+                    src={enFlag}
+                    alt="English"
+                    className="flag-icon"
+                  />
                   EN
                 </button>
 
                 <button onClick={() => changeLanguage("de")}>
-                  <img src={deFlag} alt="Deutsch" className="flag-icon" />
+                  <img
+                    src={deFlag}
+                    alt="Deutsch"
+                    className="flag-icon"
+                  />
                   DE
                 </button>
               </div>
@@ -92,6 +116,7 @@ const Header = () => {
           >
             <FaInstagram />
           </a>
+
         </div>
       </nav>
     </header>

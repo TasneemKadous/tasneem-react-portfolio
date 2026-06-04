@@ -187,5 +187,17 @@
   "home.hero.name": "Tasneem Kadous",
   "home.hero.subtitle": "Fullstack Software Ingenieurin | AWS Certified Solutions Architect – Associate | Java Spring Boot | React | Fließendes Deutsch",
   "home.hero.text": "",
-  "home.hero.button": "Kontakt aufnehmen"
+  "home.hero.button": "Kontakt aufnehmen",
+  "header.home": "Startseite",
+  "header.about": "Über mich",
+  "header.experience": "Berufserfahrung",
+  "header.projects": "Projekte",
+  "header.skills": "Fähigkeiten",
+  "header.education": "Hochschulbildung & Zertifikate",
+  "footer.home": "Startseite",
+  "footer.about": "Über mich",
+  "footer.contact": "Kontakt",
+  "footer.faqs": "FAQs",
+  "footer.rights": "Alle Rechte vorbehalten",
+  "footer.poweredBy": "Bereitgestellt von"
 }
