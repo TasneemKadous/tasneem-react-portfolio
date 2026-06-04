@@ -1,34 +1,39 @@
 import "./Skills.css";
+import { useTranslation } from "react-i18next";
 
 const Skills = () => {
+  const { t } = useTranslation();
+
   const skillCategories = [
     {
-      title: "Concepts & Methods",
-      skills: ["OOP", "Data Structures" , "Algorithms" , "SQL" , "Design Patterns" , "UI/UX" , "AI" , "Big Data" , "Component-based Software Development" , "Image Processing" , "Unit Testing" , "Agile Development Methods" , "Microservices Architecture" , "Monolithic Architecture" , "CI/CD Pipeline", "BPM" , "Software Architecture" , "Cloud Computing"],
+      titleKey: "skills.concepts.title",
+      skillsKey: "skills.concepts.items",
     },
     {
-      title: "Soft Skills",
-      skills: ["Structured problem solving & debugging", "Independent and results-oriented working style", "Teamwork & mentoring", "Targeted stakeholder communication", "Willingness to learn & technology leadership", "Comprehensive documentation"],
+      titleKey: "skills.soft.title",
+      skillsKey: "skills.soft.items",
     },
     {
-      title: "Languages",
-      skills: ["German (Fluent)", "English (Fluent)", "Arabic (Native)", "Turkish (Good)"],
+      titleKey: "skills.languages.title",
+      skillsKey: "skills.languages.items",
     },
   ];
 
   return (
     <section className="skills-section">
-      <h2 className="skills-title">Skills</h2>
+      <h2 className="skills-title">{t("skills.title")}</h2>
 
       <div className="skills-grid">
         {skillCategories.map((category, i) => (
           <div key={i} className="skills-card">
-            <h3>{category.title}</h3>
+            <h3>{t(category.titleKey)}</h3>
 
             <ul>
-              {category.skills.map((skill, index) => (
-                <li key={index}>{skill}</li>
-              ))}
+              {t(category.skillsKey, { returnObjects: true }).map(
+                (skill, index) => (
+                  <li key={index}>{skill}</li>
+                )
+              )}
             </ul>
           </div>
         ))}

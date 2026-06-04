@@ -1,0 +1,203 @@
+{
+  "cta.title": "Lass uns zusammenarbeiten",
+  "cta.text": "Ob Full-Stack-Applications, Cloud-Architekturen oder KI-basierte Lösungen – ich setze Ihre Ideen mit modernen, skalierbaren und effizienten Engineering-Methoden um.",
+  "cta.button": "Kontakt aufnehmen",
+  "education.title": "Hochschulbildung & Zertifizierungen",
+  "education.viewCertificate": "Zertifikat ansehen",
+  "education.confidentialText": "Abschlussdokumente enthalten vertrauliche Informationen und werden auf Anfrage zur Verfügung gestellt.",
+  "education.category.certification": "Zertifizierung",
+  "education.category.education": "Hochschulbildung",
+  "experience.sectionTitle": "Berufserfahrung",
+  "experience.techStack": "Technologie-Stack",
+  "experience.mz.title": "Fullstack Software Ingenieurin ( Java Spring Boot | React | PostgreSQL | AWS ) — MZ Creatives",
+  "experience.mz.period": "Mai 2024 – Heute",
+  "experience.mz.details": [
+    "Entwicklung E-Commerce-Lösung und Bereitstellung einer Full-Stack-Shopping-Website mit Spring Boot (Java 17) und React.js mit über 200 Features für Endnutzer und Admins, z. B. Gastbestellung, Sendungsverfolgung und Produktverwaltung.",
+    "Umsetzung des gesamten Systems innerhalb weniger Wochen mit einem modularen Zeitplan zur Implementierung von RESTful APIs, sitzungsbasiertem Warenkorb, Stripe-Integration und responsiven AdminDashboards.",
+    "Entwicklung von „Card Link“, einem CRM System zur Vereinfachung der Kundendatenverwaltung, das Vertriebsmitarbeitern ermöglicht, Kundendaten per QR-Code zu scannen und hinzuzufügen – Reduzierung der Dateneingabezeit um 70 % und Vermeidung von Fehlern.",
+    "Entwurf einer Microservices-Architektur mit Java Spring Boot und React.js, bereitgestellt auf AWS mit HTTPS und SSL-Zertifizierung für Skalierbarkeit, Sicherheit und Leistung.",
+    "Aufbau eines zentralen Admin-Dashboards zur Überwachung und Verwaltung aller von Nutzern eingegebenen Kundendaten.",
+    "Automatisierte dynamische Erstellung von Visitenkarten für registrierte Nutzer und Integration mit QR-Code-Scan, unterstützt durch 95 % Testabdeckung mit automatisierten Unit-Tests.",
+    "Detaillierte Fallstudien und Live-Demos finden Sie im Projektbereich. 🔎"
+  ],
+  "experience.valeo.title": "Software Application Ingenieurin (Java Spring Boot | Angular | BigQuery | Integration ) — Valeo",
+  "experience.valeo.period": "Okt 2022 – Apr 2024",
+  "experience.valeo.details": [
+    "Entwurf und Entwicklung einer internen Java-basierten Anwendungsarchitektur für die Valeo-Gruppe mit Auswirkungen auf über 30.000 Mitarbeitende weltweit sowie Erstellung von Low-Level-Designs zur Optimierung von Skalierbarkeit und Performance.",
+    "Leitung eines Projekts zur Automatisierung von Audits, wodurch die Bearbeitungszeit um 90 % reduziert und jährlich viele Arbeitsstunden eingespart wurden; außerdem Refactoring von Altsystemen mit einer Leistungssteigerung von 30 %.",
+    "Entwicklung sicherer APIs mit Java Spring Boot sowie Modernisierung von Web-Oberflächen durch die Integration von AngularJS mit JavaScript-DOM-Skripten.",
+    "Analyse und Behebung kritischer Produktionsprobleme, Durchführung von Unit-Tests mit 95 % Codeabdeckung und enge Zusammenarbeit mit agilen Scrum-Teams zur Bereitstellung qualitativ hochwertiger und wartbarer Lösungen."
+  ],
+  "experience.pentab.title": "Fullstack Softwareentwicklerin (Java Spring Boot | React | Camunda | BPMN | Integration) — PentaB",
+  "experience.pentab.period": "Feb 2022 – Okt 2022",
+  "experience.pentab.details": [
+    "Eigenständige Entwicklung von zwei wirkungsvollen Projekten für Armee und Polizei mit End-to-End-Lösungen unter Verwendung von Camunda zur Modellierung von Workflows, Java für Backend-Services und React.js für Formularfunktionen – Reduzierung manueller Prozesse um 70 %.",
+    "Mitarbeit an zwei Teamprojekten zur Anpassung und Optimierung von Softwaresystemen für Kunden – Steigerung der betrieblichen Effizienz um 30 % durch Feature-Updates und Systemverbesserungen.",
+    "Verantwortung für die Kommunikation mit Kund*innen: Anforderungsanalyse, Lösungspräsentationen sowie Integration von Feedback zur passgenauen Umsetzung individueller Geschäftsanforderungen."
+  ],
+  "experience.crossworkers.title": "Softwareentwicklerin (Praktikum) (C# | MS Azure | Integration) — Crossworkers (CON-LINQ)",
+  "experience.crossworkers.period": "Jul 2021 – Sep 2021",
+  "experience.crossworkers.details": [
+    "Optimierung der fLex-Anwendung für Speditionsunternehmen durch Automatisierung der Dateneingabe in die Datenbank – Reduzierung der manuellen Eingabezeit um 80 %.",
+    "Wichtige Rolle bei der Umstellung des gesamten Systems von .NET Entity Framework auf .NET Core, wodurch die Anwendungsleistung um 40 % verbessert und die Skalierbarkeit zur Unterstützung steigender Nutzerzahlen erhöht wurde."
+  ],
+  "experience.mts.title": "Softwareentwicklerin (Praktikum) (Java | SQL | BPM | Integration) — Modern Telecom Systems Information Technology (MTS IT)",
+  "experience.mts.period": "Aug 2020 – Sep 2020",
+  "experience.mts.details": [
+    "Erstellung und Integration von API-Schnittstellen mit Business Process Maestro zur Verbesserung der Systemkommunikation und Reduzierung der Integrationszeit um 60 %.",
+    "Umsetzung einer bestehenden Fallstudie für Telecom Egypt zur Optimierung von Geschäftsprozessen – Beitrag zu einer Steigerung der betrieblichen Effizienz um 25 %."
+  ],
+  "projects.sectionTitle": "Ausgewählte Projekte",
+  "projects.viewProject": "Projekt ansehen",
+  "projects.viewGithub": "Auf GitHub ansehen",
+  "projects.media": "Projektmedien",
+  "projects.details": "Projektdetails",
+  "projects.close": "Schließen",
+  "projects.resume.title": "📄 Mein Portfolio",
+  "projects.resume.description": "Dies ist meine persönliche Portfolio-Website zur Präsentation meiner Berufserfahrung, Projekte und technischen Fähigkeiten als Fullstack Softwareentwicklerin. Sie zeigt meine Fähigkeit, moderne und responsive Webanwendungen mit React zu entwickeln und auf Cloud-Infrastrukturen bereitzustellen. Der Quellcode ist auf GitHub verfügbar.",
+  "projects.resume.details": [
+    "Entwicklung einer vollständig responsiven Portfolio-Website mit React.js auf Basis einer modularen komponentenorientierten Architektur.",
+    "Implementierung dynamischer Bereiche wie Berufserfahrung, Projekte, Fähigkeiten und Hochschulbildung zur strukturierten Darstellung meines beruflichen Werdegangs.",
+    "Bereitstellung der Anwendung auf AWS-Cloud-Infrastruktur zur Gewährleistung von Skalierbarkeit, Verfügbarkeit und produktionsreifem Hosting.",
+    "Integration des GitHub-Repositories zur Präsentation von Open-Source-Code, sauberer Softwarearchitektur und professionellen Entwicklungsprozessen.",
+    "Fokus auf moderne UI/UX-Prinzipien zur Erstellung einer professionellen, übersichtlichen und recruiterfreundlichen Benutzeroberfläche mit responsivem Design."
+  ],
+  "projects.ecommerce.title": "🛒 E-Commerce Plattform",
+  "projects.ecommerce.description": "E-Commerce-Plattform mit Produktverwaltung, Größen- und Bestandsmanagement, Kundenprozessen sowie sicherer API-Architektur. Die Lösung umfasst Admin-Dashboard, Lagerverwaltung, Bestellabwicklung und skalierbare Backend-Services für hohe Performance und Zuverlässigkeit.",
+  "projects.ecommerce.details": [
+    "Leitung der vollständigen Entwicklung einer produktionsreifen E-Commerce-Plattform mit Java 17, Spring Boot, React.js und PostgreSQL für Endkunden und Administratoren.",
+    "Implementierung von mehr als 20 Kernmodulen, darunter JWT-Authentifizierung, Gastbestellung, Sendungsverfolgung, dynamische Lagerverwaltung, rollenbasierte Admin-Dashboards und vollständige Bestellabwicklung.",
+    "Entwicklung skalierbarer RESTful APIs nach Clean-Architecture-Prinzipien mit Validierung, strukturiertem Logging und globalem Exception-Handling.",
+    "Deployment auf AWS unter Verwendung von EC2, RDS (PostgreSQL), AWS Amplify und Route 53 mit HTTPS-Konfiguration, sicherer Netzwerkinfrastruktur und optimiertem Kostenmanagement.",
+    "Erfolgreiche Umsetzung des Gesamtsystems innerhalb von 10 Wochen anhand eines meilensteinbasierten Entwicklungsplans."
+  ],
+  "projects.cardlink.title": "📇 Card-Link Lösung",
+  "projects.cardlink.description": "Komplettlösung zur Erstellung digitaler Visitenkarten und zum Scannen von Kundenkarten mithilfe von OCR und KI. Das System ermöglicht effizientes Kontaktmanagement, CRM-Integration, Echtzeit-Erkennung, Datenvalidierung und den Export in bestehende Kontaktsysteme.",
+  "projects.cardlink.details": [
+    "Entwicklung einer Microservices-basierten Webanwendung zur automatisierten Erfassung von Kundendaten über digitale QR-Code-Visitenkarten.",
+    "Reduzierung der manuellen Dateneingabe um 70 % sowie Vermeidung von Eingabefehlern durch automatisiertes QR-Code-Scanning und strukturierte Datenvalidierung.",
+    "Entwicklung sicherer Backend-Services mit Spring Boot sowie moderner Frontend-Komponenten mit React.js unter Verwendung rollenbasierter Zugriffskontrolle und REST APIs.",
+    "Aufbau eines zentralen Admin-Dashboards zur Überwachung von Vertriebsmitarbeitern und Verwaltung von Kundendaten.",
+    "Bereitstellung auf AWS mit SSL-Zertifizierung und HTTPS zur Sicherstellung von Skalierbarkeit, Sicherheit und Produktionsreife bei gleichzeitig hoher Testabdeckung."
+  ],
+  "skills.title": "Fähigkeiten",
+  "skills.concepts.title": "Konzepte & Methoden",
+  "skills.concepts.items": [
+    "OOP",
+    "Datenstrukturen",
+    "Algorithmen",
+    "SQL",
+    "Design Patterns",
+    "UI/UX",
+    "KI",
+    "Big Data",
+    "Komponentenbasierte Softwareentwicklung",
+    "Bildverarbeitung",
+    "Unit-Testing",
+    "Agile Entwicklungsmethoden",
+    "Microservices-Architektur",
+    "Monolithische Architektur",
+    "CI/CD-Pipeline",
+    "BPM",
+    "Softwarearchitektur",
+    "Cloud Computing"
+  ],
+  "skills.soft.title": "Soft Skills",
+  "skills.soft.items": [
+    "Strukturierte Problemlösung & Debugging",
+    "Selbstständige & ergebnisorientierte Arbeitsweise",
+    "Teamfähigkeit & Mentoring",
+    "Zielgerichtete Stakeholder-Kommunikation",
+    "Lernbereitschaft & Technologieführerschaft",
+    "Ganzheitliche Dokumentation"
+  ],
+  "skills.languages.title": "Sprachen",
+  "skills.languages.items": [
+    "Deutsch (fließend)",
+    "Englisch (fließend)",
+    "Arabisch (Muttersprache)",
+    "Türkisch (gut)"
+  ],
+  "about.name": "Tasneem Kadous",
+  "about.intro.p1": "Hallo, ich bin Tasneem — Softwareentwicklerin mit Spezialisierung auf Java Spring Boot, React und Cloud-Lösungen auf AWS. Ich entwerfe und entwickle Systeme End-to-End: von der Anforderungsanalyse und Architektur bis hin zu sauberen Backend-APIs, intuitiven Frontend-Oberflächen und sicheren, skalierbaren Deployments.",
+  "about.intro.p2": "Ich interessiere mich stark für Problemlösung und dafür, Prozesse durch Software zu verbessern. In meiner bisherigen Erfahrung habe ich an CRM-Systemen, digitalen Visitenkarten, E-Commerce-Plattformen und Automatisierungslösungen gearbeitet. Mein Fokus liegt auf sauberem, wartbarem Code und nutzerzentrierten Lösungen.",
+  "about.intro.p3": "Derzeit erweitere ich meine Kenntnisse im Bereich KI-gestützter Features und Cloud-Architektur — ich bereite mich auf fortgeschrittene AWS-Zertifizierungen vor und erforsche die Verbindung zwischen Softwareentwicklung und intelligenter Automatisierung.",
+  "about.intro.p4": "Schau dir gerne meine Projekte an oder kontaktiere mich — ich freue mich über Zusammenarbeit und neue Ideen.",
+  "about.hobbies.title": "Hobbys & Interessen",
+  "about.hobbies.p1": "Neben dem Programmieren tanze ich leidenschaftlich gerne Swing, insbesondere Lindy Hop, und unterstütze Community-Tanzsessions — das hält meine Kreativität und Bewegung lebendig.",
+  "about.hobbies.p2": "Ich reise auch sehr gerne. Seit 2015 habe ich durchgehend Schengen-Visa und das Reisen durch Europa ist ein wichtiger Teil meines Lebens geworden — Kulturen, Straßen, Cafés und Musik inspirieren mich sehr.",
+  "about.creative.title": "Kreativer Ausdruck",
+  "about.creative.p1": "Wenn ich nicht programmiere, findet man mich wahrscheinlich im Studio oder vor der Kamera. Ich bin ausgebildetes Model und genieße Fotoshootings sehr — sie geben mir die Möglichkeit, mich kreativ auszudrücken.",
+  "about.creative.p2": "Ich lasse mich gerne fotografieren, weil ich dadurch Persönlichkeit durch Bewegung, Styling und Präsenz ausdrücken kann. Modeling ist für mich eine künstlerische Ergänzung zur strukturierten und analytischen Welt der Softwareentwicklung.",
+  "contact.title": "Erstgespräch buchen",
+  "contact.subtitle": "Wenn Sie Recruiter oder Unternehmensvertreter sind, können Sie direkt ein kurzes Einführungsgespräch vereinbaren.",
+  "contact.button": "Interviewtermin reservieren",
+  "faqs.title": "Häufig gestellte Fragen",
+  "faqs.items": [
+    {
+      "question": "Umzug & Arbeitserlaubnis",
+      "answer": "Sind Sie bereit umzuziehen?\nJa — ich bin offen und sehr motiviert, für die richtige Position umzuziehen. Ich bin flexibel bezüglich des Standorts.\n\nHaben Sie eine gültige Arbeitserlaubnis?\nJa — ich habe eine gültige Arbeitserlaubnis in Ägypten sowie in Deutschland. Ich besitze die Chancenkarte (deutsche Arbeitserlaubnis), die mir erlaubt, in Deutschland zu arbeiten.\n\nIn welchen Ländern dürfen Sie arbeiten?\nIch bin derzeit berechtigt, in Ägypten und Deutschland zu arbeiten. Außerdem bin ich offen für eine Tätigkeit in ganz Europa und dem Nahen Osten.\n\nSind Sie offen für Remote-, Vor-Ort- oder Hybrid-Arbeit?\nJa — ich bin offen für alle Arbeitsmodelle. Hybrid-Arbeit bevorzuge ich, da sie Zusammenarbeit und fokussiertes Arbeiten gut kombiniert, bin aber flexibel je nach Position und Team."
+    },
+    {
+      "question": "Verfügbarkeit",
+      "answer": "Wann können Sie anfangen?\nSofort verfügbar.\n\nSind Sie für Vollzeitstellen verfügbar?\nAbsolut — Vollzeitstellen sind meine bevorzugte Option.\n\nSind Sie offen für Vertrags-, Freelance- oder Teilzeitstellen?\nJa — ich bin offen für Vertrags- und Teilzeitrollen. Freelancing ist möglich, aber nicht meine erste Wahl, da ich langfristige Stabilität suche."
+    },
+    {
+      "question": "Sprachen",
+      "answer": "Welche Sprachen sprechen Sie?\nArabisch: Muttersprache\nEnglisch: C1\nDeutsch: C1\nTürkisch: B1\n\nHaben Sie Sprachzertifikate?\nJa — ich besitze ein telc B2 Deutschzertifikat sowie ein offizielles englischsprachiges Studienzertifikat der University of East London (UEL)."
+    },
+    {
+      "question": "Reisen",
+      "answer": "Sind Sie bereit zu reisen?\nJa — ich bin offen für Geschäftsreisen und berufsbedingte Reisen.\n\nHaben Sie internationale Reiseerfahrung?\nJa — ich habe über 10 Jahre internationale Reiseerfahrung, unter anderem nach Deutschland, Italien, Katar, Saudi-Arabien, Mauritius und Kosovo."
+    },
+    {
+      "question": "Technisches Profil & Fähigkeiten",
+      "answer": "Auf welche Technologien sind Sie spezialisiert?\nJava (8–21), Spring Boot, React.js, PostgreSQL, AWS Cloud\n\nWorauf liegt Ihr Fokus?\nFull-Stack- und Backend-Entwicklung mit Erfahrung in Cloud-Deployment.\n\nHaben Sie Erfahrung mit AWS?\nJa — über 2 Jahre praktische Erfahrung mit AWS sowie relevante Zertifizierungen.\n\nEntwickeln Sie Full-Stack-Anwendungen?\nJa — ich habe mehrere Full-Stack-Systeme entwickelt, einschließlich dieser Portfolio-Website auf AWS."
+    },
+    {
+      "question": "Ausbildung & Zertifikate",
+      "answer": "Welche Zertifikate besitzen Sie?\nAWS Cloud Practitioner\nAWS Solutions Architect Associate Badge\nGoogle UI/UX Zertifikat\nMeta React Kurse\nPraktikumszertifikate\n\nAkademische Leistungen:\nBachelorabschluss mit hervorragenden Leistungen:\n- 3. Platz (2. Studienjahr)\n- 2. Platz (3. Studienjahr)\n- 1. Platz im Abschlussjahr (Note A Projekt)\n- 8. Platz insgesamt im Jahrgang"
+    },
+    {
+      "question": "Arbeitsweise & Präferenzen",
+      "answer": "Bevorzugtes Arbeitsumfeld:\nEin hybrides Modell, das Zusammenarbeit und fokussiertes Arbeiten kombiniert.\n\nUmgang mit Druck:\nStrukturierte Planung, ruhiges Problemlösen und hohe Anpassungsfähigkeit.\n\nTeamarbeit vs. Einzelarbeit:\nFlexibel — sowohl eigenständige als auch teamorientierte Arbeit ist möglich."
+    },
+    {
+      "question": "Projekte & Portfolio",
+      "answer": "Wichtige Projekte umfassen Full-Stack-Systeme in den Bereichen E-Commerce, CRM und Automatisierung.\n\nFrontend- und Backend-Erfahrung:\nJa — Full-Stack-Entwicklung inklusive UI, Backend, APIs und Cloud-Deployment.\n\nCloud-Systeme:\nJa — AWS-basierte Systeme mit skalierbarer Architektur."
+    },
+    {
+      "question": "Tools & Zusammenarbeit",
+      "answer": "Verwendete Tools:\nIntelliJ, Eclipse, VS Code, GitHub, Jenkins, Postman, JIRA, AWS, Figma, Docker usw.\n\nAgile Erfahrung:\nJa — Arbeit nach Scrum- und Agile-Methoden.\n\nInternationale Teams:\nJa — Erfahrung in multikulturellen und internationalen Teams.\n\nTechnische Prinzipien:\nOOP, Datenstrukturen, Design Patterns, Microservices, CI/CD, BPM."
+    },
+    {
+      "question": "Persönliche & Soft Skills",
+      "answer": "Soft Skills:\nKommunikation, Teamarbeit, Anpassungsfähigkeit, Problemlösung und Kreativität.\n\nLehrerfahrung:\n8 Jahre Erfahrung im Unterrichten von Mathematik, Deutsch und Tanz.\n\nUmgang mit Konflikten:\nRuhige, strukturierte und faktenbasierte Kommunikation mit Fokus auf Lösungen."
+    },
+    {
+      "question": "Jobpräferenzen",
+      "answer": "Zielrollen:\nJava Spring Boot Backend- oder Full-Stack-Positionen mit Cloud-Fokus.\n\nBranchen:\nE-Commerce, Fintech, Enterprise-Systeme und Cloud-Services.\n\nUmzug:\nOffen für Deutschland und EU-Länder mit gültiger Arbeitserlaubnis."
+    },
+    {
+      "question": "Weitere FAQs",
+      "answer": "Motivation:\nProblemlösung und Entwicklung sinnvoller Systeme.\n\nLernstil:\nPraktische Erfahrung und kontinuierliches Experimentieren.\n\nWas mich auszeichnet:\nSchnelles Lernen, Anpassungsfähigkeit und starke Problemlösungsfähigkeiten."
+    }
+  ],
+  "home.hero.title": "Hallo, ich bin",
+  "home.hero.name": "Tasneem Kadous",
+  "home.hero.subtitle": "Fullstack Software Ingenieurin | AWS Certified Solutions Architect – Associate | Java Spring Boot | React | Fließendes Deutsch",
+  "home.hero.text": "",
+  "home.hero.button": "Kontakt aufnehmen",
+  "header.home": "Startseite",
+  "header.about": "Über mich",
+  "header.experience": "Berufserfahrung",
+  "header.projects": "Projekte",
+  "header.skills": "Fähigkeiten",
+  "header.education": "Hochschulbildung & Zertifikate",
+  "footer.home": "Startseite",
+  "footer.about": "Über mich",
+  "footer.contact": "Kontakt",
+  "footer.faqs": "FAQs",
+  "footer.rights": "Alle Rechte vorbehalten",
+  "footer.poweredBy": "Bereitgestellt von"
+}
