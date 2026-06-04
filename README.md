@@ -45,6 +45,8 @@ Deployed via AWS Amplify:
 ---
 
 ## 🏗️ Project Architecture
+
+```txt
 src/
 │
 ├── assets/                 # Images, videos, flags, media
@@ -75,4 +77,4 @@ src/
 │
 ├── App.js
 └── index.js
-└── index.js
+```
