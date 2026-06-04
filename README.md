@@ -85,3 +85,17 @@ src/
 ├── App.js
 └── index.js
 ```
+
+## 📈 Future Work
+
+This portfolio is continuously evolving. Planned improvements include:
+
+- 🔧 Backend integration using Spring Boot or Node.js for dynamic content management
+- 📝 Add a blog section for technical articles and project insights
+- 🎨 Improve UI animations using Framer Motion for smoother user experience
+- 🌙 Add Dark / Light mode toggle with persistent user preference
+- 📊 Add analytics dashboard to track visitor interactions
+- 🧠 Expand AI-based features (e.g. smart CV parsing or chatbot assistant)
+- 🚀 Improve performance optimization (lazy loading, code splitting enhancements)
+- 🧪 Add automated testing (unit + integration tests for components)
+- 🌍 Extend multilingual support with additional languages
