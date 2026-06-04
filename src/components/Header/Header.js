@@ -1,23 +1,27 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import { FaInstagram, FaLinkedin } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
+import enFlag from "../../assests/enFlag.png";
+import deFlag from "../../assests/deFlag.png";
 import "./Header.css";
 
 const Header = () => {
   const [isVisible, setIsVisible] = useState(true);
+  const [isLangOpen, setIsLangOpen] = useState(false);
+
   const { i18n } = useTranslation();
 
-  let lastScrollY = window.scrollY;
+  const lastScrollY = useRef(window.scrollY);
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > lastScrollY) {
+      if (window.scrollY > lastScrollY.current) {
         setIsVisible(false);
       } else {
         setIsVisible(true);
       }
-      lastScrollY = window.scrollY;
+      lastScrollY.current = window.scrollY;
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -26,6 +30,7 @@ const Header = () => {
 
   const changeLanguage = (lang) => {
     i18n.changeLanguage(lang);
+    setIsLangOpen(false);
   };
 
   return (
@@ -42,19 +47,35 @@ const Header = () => {
         </ul>
 
         <div className="icons">
-          <button
-            className={`lang-btn ${i18n.language === "en" ? "active" : ""}`}
-            onClick={() => changeLanguage("en")}
-          >
-            EN
-          </button>
 
-          <button
-            className={`lang-btn ${i18n.language === "de" ? "active" : ""}`}
-            onClick={() => changeLanguage("de")}
-          >
-            DE
-          </button>
+          {/* Language Dropdown */}
+          <div className="lang-dropdown">
+            <button
+              className="lang-selected"
+              onClick={() => setIsLangOpen(!isLangOpen)}
+            >
+              <img
+                src={i18n.language === "de" ? deFlag : enFlag}
+                alt="flag"
+                className="flag-icon"
+              />
+              {i18n.language === "de" ? "DE" : "EN"}
+            </button>
+
+            {isLangOpen && (
+              <div className="lang-menu">
+                <button onClick={() => changeLanguage("en")}>
+                  <img src={enFlag} alt="English" className="flag-icon" />
+                  EN
+                </button>
+
+                <button onClick={() => changeLanguage("de")}>
+                  <img src={deFlag} alt="Deutsch" className="flag-icon" />
+                  DE
+                </button>
+              </div>
+            )}
+          </div>
 
           <a
             href="https://www.linkedin.com/in/tasneem-kadous/"
