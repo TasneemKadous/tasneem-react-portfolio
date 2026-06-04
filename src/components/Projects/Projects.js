@@ -8,8 +8,8 @@ import cardlink3 from "../../assests/cardlink/3.png";
 import cardlink4 from "../../assests/cardlink/4.png";
 import cardlink5 from "../../assests/cardlink/5.png";
 
-import akc1 from "../../assests/akc/1.mp4";
-import akc2 from "../../assests/akc/2.mp4";
+//import akc1 from "../../assests/akc/1.mp4";
+//import akc2 from "../../assests/akc/2.mp4";
 
 const Projects = () => {
   const { t } = useTranslation();
@@ -30,7 +30,7 @@ const Projects = () => {
       github: "https://github.com/TasneemKadous/akc-product-service",
 
       media: {
-        videos: [akc1, akc2],
+        videos: ["akc1", "akc2"],
       },
     },
 
