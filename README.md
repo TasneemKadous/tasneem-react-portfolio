@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+# 🌐 Personal Portfolio – Tasneem Kadous
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive Fullstack Developer Portfolio built with **React.js**, showcasing professional experience, projects, skills, certifications, and multilingual support (English 🇬🇧 / German 🇩🇪).
 
-## Available Scripts
+The project is designed with a strong focus on **clean UI/UX, modular architecture, and cloud deployment using AWS Amplify**.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Live Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Deployed via AWS Amplify:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🔗 https://your-amplify-link-here
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🧠 Tech Stack
 
-### `npm run build`
+### Frontend
+- React.js (Functional Components + Hooks)
+- React Router DOM
+- React i18next (Internationalization)
+- JavaScript (ES6+)
+- CSS3 (Custom Styling, Responsive Design)
+- React Icons
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Deployment / Infrastructure
+- AWS Amplify (CI/CD + Hosting)
+- GitHub (Version Control)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🌍 Features
 
-### `npm run eject`
+- 🌐 Fully multilingual (English 🇬🇧 / German 🇩🇪)
+- 🧭 Smooth single-page navigation
+- 📱 Fully responsive design (Mobile / Tablet / Desktop)
+- 💼 Interactive Experience section (Accordion UI)
+- 📁 Projects section with modal (images + videos)
+- 🔗 GitHub integration per project
+- 🧾 Dynamic Skills section (categorized)
+- 🎯 Recruiter-focused UI/UX design
+- ⚡ AWS Amplify deployment with auto CI/CD
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🏗️ Project Architecture
+src/
+│
+├── assets/ # Images, videos, flags, media
+├── components/
+│ ├── CTA/
+│ ├── Header/
+│ ├── Footer/
+│ ├── Experience/
+│ ├── Projects/
+│ ├── Skills/
+│ ├── Education/
+│ └── ScrollToHash/
+│  
+│── configs/
+│
+│
+│── PAGES/
+│ ├── Home/
+│ ├── About/
+│ ├── FAQs/
+│ └── Contact/
+│
+├── i18n.js # Language configuration (react-i18next)
+│
+│
+├── locales/
+│ ├── en.json # English translations
+│ └── de.json # German translations
+│
+├── App.js
+└── index.js

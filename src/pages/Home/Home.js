@@ -41,6 +41,10 @@ const Home = () => {
         <div className="hero-image">
           <img src={personalImage} alt="Tasneem Kadous" />
         </div>
+
+        <div className="scroll-indicator">
+          <span>⌄</span>
+        </div>
       </section>
 
       <section id="experience">
