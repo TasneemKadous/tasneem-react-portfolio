@@ -12,9 +12,9 @@
   "experience.mz.title": "Fullstack Software Ingenieurin ( Java Spring Boot | React | PostgreSQL | AWS ) — MZ Creatives",
   "experience.mz.period": "Mai 2024 – Heute",
   "experience.mz.details": [
-    "Entwicklung einer E-Commerce-Lösung und Bereitstellung einer Full-Stack-Shopping-Website mit Spring Boot (Java 17) und React.js mit über 200 Features für Endnutzer und Admins, z. B. Gastbestellung, Sendungsverfolgung und Produktverwaltung.",
-    "Umsetzung des gesamten Systems innerhalb weniger Wochen mit einem modularen Zeitplan zur Implementierung von RESTful APIs, sitzungsbasiertem Warenkorb und responsiven Admin-Dashboards.",
-    "Entwicklung von „Card Link“, einem CRM-System zur Vereinfachung der Kundendatenverwaltung, das Vertriebsmitarbeitern ermöglicht, Kundendaten per QR-Code zu scannen und hinzuzufügen – Reduzierung der Dateneingabezeit um 70 % und Vermeidung von Fehlern.",
+    "Entwicklung E-Commerce-Lösung und Bereitstellung einer Full-Stack-Shopping-Website mit Spring Boot (Java 17) und React.js mit über 200 Features für Endnutzer und Admins, z. B. Gastbestellung, Sendungsverfolgung und Produktverwaltung.",
+    "Umsetzung des gesamten Systems innerhalb weniger Wochen mit einem modularen Zeitplan zur Implementierung von RESTful APIs, sitzungsbasiertem Warenkorb, Stripe-Integration und responsiven AdminDashboards.",
+    "Entwicklung von „Card Link“, einem CRM System zur Vereinfachung der Kundendatenverwaltung, das Vertriebsmitarbeitern ermöglicht, Kundendaten per QR-Code zu scannen und hinzuzufügen – Reduzierung der Dateneingabezeit um 70 % und Vermeidung von Fehlern.",
     "Entwurf einer Microservices-Architektur mit Java Spring Boot und React.js, bereitgestellt auf AWS mit HTTPS und SSL-Zertifizierung für Skalierbarkeit, Sicherheit und Leistung.",
     "Aufbau eines zentralen Admin-Dashboards zur Überwachung und Verwaltung aller von Nutzern eingegebenen Kundendaten.",
     "Automatisierte dynamische Erstellung von Visitenkarten für registrierte Nutzer und Integration mit QR-Code-Scan, unterstützt durch 95 % Testabdeckung mit automatisierten Unit-Tests.",
@@ -28,20 +28,20 @@
     "Entwicklung sicherer APIs mit Java Spring Boot sowie Modernisierung von Web-Oberflächen durch die Integration von AngularJS mit JavaScript-DOM-Skripten.",
     "Analyse und Behebung kritischer Produktionsprobleme, Durchführung von Unit-Tests mit 95 % Codeabdeckung und enge Zusammenarbeit mit agilen Scrum-Teams zur Bereitstellung qualitativ hochwertiger und wartbarer Lösungen."
   ],
-  "experience.pentab.title": "Fullstack Software Entwicklerin (Java Spring Boot | React | Camunda | BPMN | Integration) — PentaB",
+  "experience.pentab.title": "Fullstack Softwareentwicklerin (Java Spring Boot | React | Camunda | BPMN | Integration) — PentaB",
   "experience.pentab.period": "Feb 2022 – Okt 2022",
   "experience.pentab.details": [
     "Eigenständige Entwicklung von zwei wirkungsvollen Projekten für Armee und Polizei mit End-to-End-Lösungen unter Verwendung von Camunda zur Modellierung von Workflows, Java für Backend-Services und React.js für Formularfunktionen – Reduzierung manueller Prozesse um 70 %.",
     "Mitarbeit an zwei Teamprojekten zur Anpassung und Optimierung von Softwaresystemen für Kunden – Steigerung der betrieblichen Effizienz um 30 % durch Feature-Updates und Systemverbesserungen.",
     "Verantwortung für die Kommunikation mit Kund*innen: Anforderungsanalyse, Lösungspräsentationen sowie Integration von Feedback zur passgenauen Umsetzung individueller Geschäftsanforderungen."
   ],
-  "experience.crossworkers.title": "Software Entwicklerin (Praktikum) (C# | MS Azure | Integration) — Crossworkers (CON-LINQ)",
+  "experience.crossworkers.title": "Softwareentwicklerin (Praktikum) (C# | MS Azure | Integration) — Crossworkers (CON-LINQ)",
   "experience.crossworkers.period": "Jul 2021 – Sep 2021",
   "experience.crossworkers.details": [
     "Optimierung der fLex-Anwendung für Speditionsunternehmen durch Automatisierung der Dateneingabe in die Datenbank – Reduzierung der manuellen Eingabezeit um 80 %.",
     "Wichtige Rolle bei der Umstellung des gesamten Systems von .NET Entity Framework auf .NET Core, wodurch die Anwendungsleistung um 40 % verbessert und die Skalierbarkeit zur Unterstützung steigender Nutzerzahlen erhöht wurde."
   ],
-  "experience.mts.title": "Software Entwicklerin (Praktikum) (Java | SQL | BPM | Integration) — Modern Telecom Systems Information Technology (MTS IT)",
+  "experience.mts.title": "Softwareentwicklerin (Praktikum) (Java | SQL | BPM | Integration) — Modern Telecom Systems Information Technology (MTS IT)",
   "experience.mts.period": "Aug 2020 – Sep 2020",
   "experience.mts.details": [
     "Erstellung und Integration von API-Schnittstellen mit Business Process Maestro zur Verbesserung der Systemkommunikation und Reduzierung der Integrationszeit um 60 %.",
@@ -105,11 +105,11 @@
   "skills.soft.title": "Soft Skills",
   "skills.soft.items": [
     "Strukturierte Problemlösung & Debugging",
-    "Selbstständige und ergebnisorientierte Arbeitsweise",
+    "Selbstständige & ergebnisorientierte Arbeitsweise",
     "Teamfähigkeit & Mentoring",
-    "Gezielte Stakeholder-Kommunikation",
+    "Zielgerichtete Stakeholder-Kommunikation",
     "Lernbereitschaft & Technologieführerschaft",
-    "Umfassende Dokumentation"
+    "Ganzheitliche Dokumentation"
   ],
   "skills.languages.title": "Sprachen",
   "skills.languages.items": [
@@ -185,7 +185,7 @@
   ],
   "home.hero.title": "Hallo, ich bin",
   "home.hero.name": "Tasneem Kadous",
-  "home.hero.subtitle": "Fullstack Software Engineerin | AWS Certified Solutions Architect – Associate | Java Spring Boot | Fortgeschrittenes React | C1 Deutsch",
+  "home.hero.subtitle": "Fullstack Software Ingenieurin | AWS Certified Solutions Architect – Associate | Java Spring Boot | React | Fließendes Deutsch",
   "home.hero.text": "",
   "home.hero.button": "Kontakt aufnehmen"
 }
