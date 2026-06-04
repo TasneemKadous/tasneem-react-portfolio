@@ -23,7 +23,7 @@ const Footer = () => {
           rel="noopener noreferrer"
           className="footer-link"
         >
-          Tasneem Kadous
+          Me
         </a>
       </p>
     </footer>
