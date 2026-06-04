@@ -1,3 +1,10 @@
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![AWS](https://img.shields.io/badge/AWS-Amplify-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![i18n](https://img.shields.io/badge/i18n-Multilingual-blue?style=for-the-badge)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow?style=for-the-badge&logo=javascript&logoColor=black)
+![CSS3](https://img.shields.io/badge/CSS3-Styling-blue?style=for-the-badge&logo=css3&logoColor=white)
+![Responsive](https://img.shields.io/badge/Responsive-Design-success?style=for-the-badge)
+
 # 🌐 Personal Portfolio – Tasneem Kadous
 
 A modern, responsive Fullstack Developer Portfolio built with **React.js**, showcasing professional experience, projects, skills, certifications, and multilingual support (English 🇬🇧 / German 🇩🇪).
