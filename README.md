@@ -17,7 +17,7 @@ The project is designed with a strong focus on **clean UI/UX, modular architectu
 
 Deployed via AWS Amplify:
 
-🔗 https://your-amplify-link-here
+🔗 https://www.tasneemkadous.com
 
 ---
 
